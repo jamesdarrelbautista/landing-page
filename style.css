@@ -29,6 +29,7 @@ img {
     max-height: 375px;
     height: auto;
     margin: 0;
+    border: 2px solid #3882f6;
 }
 
 .header {
@@ -67,6 +68,46 @@ h1.hero {
     height: auto;
 }
 
-.section-2 > p {
+.section-2 {
+    text-align: center;
+    padding: 24px;
+}
+
+.section-2 > .container {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    gap: 50px;
+}
+
+.context > p {
     color: #1f2937;
+    text-align: center;
+    width: 180px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+}
+
+.quote-text > p  {
+    
+    width: 800px;
+    color: #1f2937;
+    /* text-align: left; */
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote {
+    padding: 180px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote :nth-child(2){
+    text-align: end;
 }
