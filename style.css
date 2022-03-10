@@ -101,7 +101,8 @@ h1.hero {
 }
 
 .quote {
-    padding: 180px;
+    margin: 60px;
+    padding: 120px;
     padding-bottom: 0;
     display: flex;
     flex-direction: column;
@@ -111,3 +112,43 @@ h1.hero {
 .quote :nth-child(2){
     text-align: end;
 }
+
+.section-4 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 120px;
+}
+
+.call-to-action{
+    background-color: #3882f6;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    border-radius: 20px;
+    padding: 55px 150px;    
+}
+
+.call-to-action button{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    border: 1px solid white;
+}
+
+
+.footer-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+
+
